@@ -1,9 +1,10 @@
 {
   "name": "api_default",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "molde de api",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Glauber Gonçalves",

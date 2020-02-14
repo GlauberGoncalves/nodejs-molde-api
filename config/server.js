@@ -16,9 +16,7 @@ app.use(function(req, res, next){
 app.use(express.static('./app/public'));
 app.use(bodyParser.urlencoded({extended: true}));
 
-consign()
-	.include('app/routes')
-	.then('app/models')
+consign()		
 	.then('app/controllers')
 	.into(app);
 
